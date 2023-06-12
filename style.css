@@ -17,10 +17,15 @@ header {
     font-weight: bold;
 }
 
-a, p {
+a, p, .text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.text {
+    color:#1F2937;
+    margin: 10px;
 }
 
 ul {
@@ -56,6 +61,117 @@ button {
     border: 1px solid #3882F6;
 }
 
-img {
+#jojo-wide {
     width: 500px;
+    border: 0px;
+}
+
+img {
+    width:100px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+}
+
+.second-section {
+    background: #F9FAF8;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 40px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.third-section {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 174px 64px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+    color: #1F2937;
+    max-width: 200vh;
+}
+
+.author {
+    text-align: end;
+    margin-right: 70px;
+    font-size: 28px;
+    font-weight: bold;
+    max-width: 200vh;
+}
+
+.fourth-section {
+    background: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 32px 174px 32px;
+}
+
+.box {
+    background: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 600px;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.box-left, .box-right {
+    padding: 15px;
+    margin: 20px 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+#text-button{
+    margin:0;
+    font-size: 18px;
+}
+
+.box-button {
+    border: 2px solid #F9FAF8;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: medium;
+    margin-left: 5px;
 }
